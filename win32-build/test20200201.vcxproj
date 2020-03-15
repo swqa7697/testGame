@@ -113,7 +113,8 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Documents/workspace/test20200201/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll E:/Documents/workspace/test20200201/win32-build/bin/test20200201/Debug/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -278,7 +279,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Documents/workspace/test20200201/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll E:/Documents/workspace/test20200201/win32-build/bin/test20200201/Release/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -443,7 +445,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Documents/workspace/test20200201/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll E:/Documents/workspace/test20200201/win32-build/bin/test20200201/MinSizeRel/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -607,7 +610,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <PostBuildEvent>
-      <Message>												</Message>
+      <Message>
+      </Message>
       <Command>setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different E:/Documents/workspace/test20200201/cocos2d/external/openssl/prebuilt/win32/libssl-1_1.dll E:/Documents/workspace/test20200201/win32-build/bin/test20200201/RelWithDebInfo/libssl-1_1.dll
 if %errorlevel% neq 0 goto :cmEnd
@@ -874,6 +878,28 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{DAB6F22C-EE14-39C6-B037-2C2B1CC14894}</Project>
       <Name>external</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Assets\bg.jpg" />
+    <Image Include="..\Resources\Assets\brush.png" />
+    <Image Include="..\Resources\Assets\brush1.png" />
+    <Image Include="..\Resources\Assets\brush2.png" />
+    <Image Include="..\Resources\Assets\coin.png" />
+    <Image Include="..\Resources\Assets\coin1.png" />
+    <Image Include="..\Resources\Assets\gem.png" />
+    <Image Include="..\Resources\Assets\gem1.png" />
+    <Image Include="..\Resources\Assets\gem2.png" />
+    <Image Include="..\Resources\Assets\hammer.png" />
+    <Image Include="..\Resources\Assets\hammer1.png" />
+    <Image Include="..\Resources\Assets\hammer2.png" />
+    <Image Include="..\Resources\Assets\heart.png" />
+    <Image Include="..\Resources\Assets\heart1.png" />
+    <Image Include="..\Resources\Assets\spin_button.png" />
+    <Image Include="..\Resources\Assets\spin_button_selected.png" />
+    <Image Include="..\Resources\Assets\wheel.png" />
+    <Image Include="..\Resources\Assets\wheel_arrow.png" />
+    <Image Include="..\Resources\Assets\wheel_border.png" />
+    <Image Include="..\Resources\Assets\wheel_sections_8.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

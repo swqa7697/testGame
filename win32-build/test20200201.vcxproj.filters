@@ -58,9 +58,6 @@
     <Filter Include="Resources">
       <UniqueIdentifier>{D2446362-1E8B-324F-994D-56EB41B1A136}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Resources\fonts">
-      <UniqueIdentifier>{B2C3E7F4-450F-3CF7-9E05-9ECC5C01E8C3}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resources\res">
       <UniqueIdentifier>{68070A3B-D409-35B1-AEB9-CC91993E4C4C}</UniqueIdentifier>
     </Filter>
@@ -73,5 +70,73 @@
     <Filter Include="Source Files\proj.win32">
       <UniqueIdentifier>{A538EC87-201B-3E8D-9233-4D4D7F8D2408}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources\Assets">
+      <UniqueIdentifier>{4e6065c9-2ebe-4c07-ad1c-2d4467348edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{B2C3E7F4-450F-3CF7-9E05-9ECC5C01E8C3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\Assets\brush.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\coin.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\gem.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\hammer.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\heart.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\spin_button.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\wheel_arrow.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\wheel_border.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\wheel_sections_8.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\bg.jpg">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\wheel.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\spin_button_selected.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\brush1.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\brush2.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\coin1.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\gem1.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\gem2.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\hammer1.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\hammer2.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
+    <Image Include="..\Resources\Assets\heart1.png">
+      <Filter>Resources\Assets</Filter>
+    </Image>
   </ItemGroup>
 </Project>
